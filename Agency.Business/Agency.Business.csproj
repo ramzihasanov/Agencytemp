@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Agency.Data\Agency.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CustomExceptions\CategoryExc\" />
+    <Folder Include="CustomExceptions\PortfolioExc\" />
+  </ItemGroup>
+
+</Project>
